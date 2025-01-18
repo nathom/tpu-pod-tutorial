@@ -1,0 +1,9 @@
+[project]
+name = "tpu-pod-tutorial"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "jax[tpu]>=0.5.0",
+]
