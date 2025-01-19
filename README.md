@@ -284,7 +284,7 @@ Duration: 0:00:08.020470
 
 We see there are 16 detected devices on the `v4-32` pod! 
 
-Let's try running a distributed computation. Create a file `pmap_test.py` in the repo
+Let's try running a distributed computation. Create a file `pmap.py` in the repo
 with the following contents
 
 ```python
