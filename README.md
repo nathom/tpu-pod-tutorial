@@ -318,3 +318,11 @@ And run
 ```sh
 bash run.sh pmap.py
 ```
+
+After all the setup output, it should show something like
+
+```
+global device count: 16
+local device count: 4
+pmap result: [16. 16. 16. 16.]
+```
