@@ -1,7 +1,8 @@
 # tpu-pod-tutorial
 
-This tutorial will get you started with multi-host VM
-TPU pods.
+This tutorial will get you started with multi-host VM TPU pods.
+If you don't want to follow the tutorial step by step, a reference edited version
+is on the `run` branch.
 
 ## Setup this tutorial
 
