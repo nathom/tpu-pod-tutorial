@@ -31,7 +31,7 @@ You should see something like:
 
 ```
 $ uv init .
-Initialized project `tpu-pod-tutorial` at `/home/ucsdwanglab/nathan/tpu-pod-tutorial`
+Initialized project `tpu-pod-tutorial` at `/home/ucsdwanglab/your_folder/tpu-pod-tutorial`
 $ ls
 LICENSE  README.md  hello.py  pyproject.toml
 ```
@@ -241,7 +241,7 @@ export
 PATH=/home/ucsdwanglab/.local/bin:/home/ucsdwanglab/.local/bin:/usr/lo
 cal/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/
 local/games:/snap/bin:/home/ucsdwanglab/.local/bin &&
-cd ~/nathan/tpu-pod-tutorial &&
+cd ~/your_folder/tpu-pod-tutorial &&
 git checkout run &&
 git pull &&
 uv run --prerelease allow hello.py
@@ -251,7 +251,7 @@ export
 PATH=/home/ucsdwanglab/.local/bin:/home/ucsdwanglab/.local/bin:/usr/lo
 cal/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/
 local/games:/snap/bin:/home/ucsdwanglab/.local/bin &&
-cd ~/nathan/tpu-pod-tutorial &&
+cd ~/your_folder/tpu-pod-tutorial &&
 git checkout run &&
 git pull &&
 uv run --prerelease allow hello.py
