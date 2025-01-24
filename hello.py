@@ -11,7 +11,7 @@ def test_jax_functionality():
     y = jnp.sin(x)
     return y.mean()
 
-if __name__ == "__main__" and jax.process_index() == 3:
+if __name__ == "__main__" and jax.process_index() == 2:
   print(jax.device_count())
   pdb.set_trace()
   print(test_jax_functionality())
