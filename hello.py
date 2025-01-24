@@ -1,4 +1,5 @@
 import jax
+import pdb
 import jax.numpy as jnp
 from jax import random
 
@@ -12,4 +13,5 @@ def test_jax_functionality():
 
 if __name__ == "__main__" and jax.process_index() == 0:
   print(jax.device_count())
+  pdb.set_trace()
   print(test_jax_functionality())
